@@ -1,0 +1,18 @@
+body{
+  background-color: #94B49F;
+  font-family: sans-serif;
+  color: #FCF8E8;
+}
+
+a{
+  color: #CEE5D0;
+  padding: 5px;
+}
+
+hr{
+border-style: none;
+border-top-style: double;
+border-color: black;
+border-width: 5px;
+margin-top: 13px;
+}
