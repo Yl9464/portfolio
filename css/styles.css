@@ -4,9 +4,23 @@ body{
   color: black;
 }
 
+#name{
+  color: #1F4690;
+  font-size: 40px;
+  margin: 7px;
+}
+
+name:hover{
+  color: #6B4F4F;
+}
+
 a{
   color: black;
+}
+a:hover{
+  color: #1F4690;
   padding: 5px;
+
 }
 
 hr{
@@ -16,6 +30,9 @@ border-color: black;
 border-width: 5px;
 margin-top: 13px;
 }
+
 h1, h3{
+font-size: 30px;
 color:  #1F4690;
+font-style: oblique;
 }
