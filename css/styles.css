@@ -31,8 +31,9 @@ border-width: 5px;
 margin-top: 13px;
 }
 
-h1, h3{
+h3{
 font-size: 30px;
 color:  #1F4690;
 font-style: oblique;
+text-align: center;
 }
