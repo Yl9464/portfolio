@@ -1,39 +1,167 @@
-body{
+body {
   background-color: #94B49F;
   font-family: sans-serif;
   color: black;
 }
 
-#name{
+/*index.html page */
+.name {
   color: #1F4690;
   font-size: 40px;
   margin: 7px;
+  text-align: center;
 }
 
-name:hover{
-  color: #6B4F4F;
+hr {
+  border-style: none;
+  border-top-style: double;
+  border-color: black;
+  border-width: 5px;
+  margin-top: 13px;
 }
 
-a{
+h3 {
+  font-size: 30px;
+  color: #1F4690;
+  font-style: oblique;
+  text-align: center;
+}
+
+/*links */
+a {
   color: black;
 }
-a:hover{
+
+a:hover {
   color: #1F4690;
   padding: 5px;
-
 }
 
-hr{
-border-style: none;
-border-top-style: double;
-border-color: black;
-border-width: 5px;
-margin-top: 13px;
+/*hobbies page */
+#hobbies {
+  position: relative;
+  bottom: 200px;
+  text-align: center;
+}
+.hpLink{
+  position: relative;
+  right: 160px;
+  top: 30px;
+}
+hpLink:hover {
+  color: #1F4690;
 }
 
-h3{
-font-size: 30px;
-color:  #1F4690;
-font-style: oblique;
-text-align: center;
+
+.subtitle {
+  position: relative;
+  bottom: 200px;
+  text-align: center;
+  color: #FCF8E8;
+  font-size: 20px;
+  left: 3px;
+  font-stretch: expanded;
+}
+
+.hobbieName {
+  text-decoration: underline;
+}
+
+.hobbieContent {
+  position: relative;
+  left: 90px;
+}
+
+.dogLife {
+  position: relative;
+  bottom: 340px;
+  margin: 155px;
+  left: 90px;
+  font-size: 20px;
+}
+
+#myGirl {
+  position: relative;
+  bottom: 450px;
+  text-align: center;
+  font-size: larger;
+}
+
+.harley {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.hobImage {
+  border: solid black 3px;
+  align-content: center;
+  position: relative;
+}
+
+.BeachHar {
+  left: 550px;
+  bottom: 450px;
+  height: 285px;
+  width: 340px;
+  border-radius: 50%;
+}
+
+#motorcycles {
+  color: gold;
+  font-family: cursive;
+  text-align: center;
+  padding-left: 320px;
+  padding-right: 320px;
+  font-size: 20px;
+  bottom: 450px;
+  position: relative;
+}
+
+.hiking {
+  bottom: 440px;
+  font-size: 23px;
+}
+
+.monadnock {
+  position: relative;
+  bottom: 555px;
+  margin: 155px;
+  left: 90px;
+  font-size: 20px;
+}
+
+.mountain {
+  position: relative;
+  left: 550px;
+  bottom: 650px;
+  height: 285px;
+  width: 340px;
+  border-radius: 50%;
+}
+
+.biking {
+  position: relative;
+  left: 550px;
+  bottom: 630px;
+  height: 285px;
+  width: 340px;
+  border-radius: 50%;
+  font-size: 23px;
+}
+
+.railTrail {
+  position: relative;
+  bottom: 1000px;
+  margin: 155px;
+  left: 90px;
+  font-size: 20px;
+}
+
+.capeCod {
+  position: relative;
+  left: 550px;
+  bottom: 1100px;
+  height: 285px;
+  width: 340px;
+  border-radius: 50%;
 }
