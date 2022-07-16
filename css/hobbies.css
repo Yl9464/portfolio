@@ -1,133 +1,71 @@
-body {
+body{
   background-color: #94B49F;
-  font-family: sans-serif;
+  font-family: 'Tiro Kannada';
   color: black;
-}
-/*hobbies page */
-#hobbies {
-  position: relative;
-  bottom: 300px;
   text-align: center;
+    margin: 0;
 }
+
+.top-container{
+width: 100%;
+height: 80%;
+position: relative;
+
+}
+h2, h5{
+  font-family: 'Lobster';
+}
+
+h1{
+position: absolute;
+color: #1F4690;
+font-size: 40px;
+width: 100%;
+text-align: left;
+padding-left: 3px;
+}
+
 .hpLink{
-  position: relative;
-  right: 160px;
-  top: 30px;
+  position: fixed;
+  right: 1350px;
+}
+.dog-Container{
+  postion: relative;
+  padding-top: 30px;
+
 }
 
-hpLink:hover {
-  color: #1F4690;
+.hobImage{
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  border: 3px solid black;
+  margin-top: 65px;
 }
-
-.subtitle {
-  position: relative;
-  bottom: 250px;
+.hobbieName{
+  font-size: 20px;
+  font-weight: bold;
+}
+.hobbieText{
+  position: absolute;
   text-align: center;
-  color: #FCF8E8;
-  font-size: 20px;
-  left: 3px;
-  font-stretch: expanded;
+  margin: 0 auto;
 }
 
-.hobbieName {
-  text-decoration: underline;
+#motorcycles{
+  color: yellow;
+  font-weight: bold;
 }
 
-.hobbieContent {
-  position: relative;
-  left: 90px;
+hr{
+  color: black;
+  border: solid 2px black;
 }
 
-.dogLife {
-  position: relative;
-  bottom: 380px;
-  margin: 155px;
-  left: 90px;
-  font-size: 19px;
+.mountain{
+  margin-top: 5px;
 }
 
-#myGirl {
-  position: relative;
-  bottom: 500px;
-  text-align: center;
-  font-size: larger;
-}
-
-.harley {
-  text-decoration: underline;
-  font-style: italic;
-}
-
-.hobImage {
-  border: solid black 3px;
-  align-content: center;
-  position: relative;
-}
-
-.BeachHar {
-  left: 550px;
-  bottom: 500px;
-  height: 285px;
-  width: 340px;
-  border-radius: 50%;
-}
-
-#motorcycles {
-  color: gold;
-  font-family: cursive;
-  text-align: center;
-  padding-left: 320px;
-  padding-right: 320px;
-  font-size: 20px;
-  bottom: 500px;
-  position: relative;
-}
-
-.hiking {
-  bottom: 480px;
-  font-size: 23px;
-}
-
-.monadnock {
-  position: relative;
-  bottom: 595px;
-  margin: 155px;
-  left: 90px;
-  font-size: 20px;
-}
-
-.mountain {
-  position: relative;
-  left: 550px;
-  bottom: 720px;
-  height: 285px;
-  width: 340px;
-  border-radius: 50%;
-}
-
-.biking {
-  position: relative;
-  left: 550px;
-  bottom: 680px;
-  height: 285px;
-  width: 340px;
-  border-radius: 50%;
-  font-size: 23px;
-}
-
-.railTrail {
-  position: relative;
-  bottom: 1050px;
-  margin: 155px;
-  left: 90px;
-  font-size: 20px;
-}
-
-.capeCod {
-  position: relative;
-  left: 550px;
-  bottom: 1170px;
-  height: 285px;
-  width: 340px;
-  border-radius: 50%;
+.capeCod{
+  margin-top: 5px;
 }

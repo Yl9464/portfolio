@@ -1,0 +1,134 @@
+body {
+  background-color: #94B49F;
+  font-family: sans-serif;
+  color: black;
+
+}
+/*hobbies page */
+#hobbies {
+  text-align: center;
+  position: relative;
+  bottom: 300px;
+}
+.hpLink{
+  position: relative;
+  right: 160px;
+  top: 30px;
+}
+
+hpLink:hover {
+  color: #1F4690;
+}
+
+.subtitle {
+  position: relative;
+  bottom: 250px;
+  color: #FCF8E8;
+  font-size: 20px;
+  left: 3px;
+  font-stretch: expanded;
+  text-align: center;
+}
+
+.hobbieName {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.hobbieContent {
+  position: relative;
+  left: 90px;
+  text-align: center;
+}
+
+.dogLife {
+  position: relative;
+  bottom: 380px;
+  margin: 155px;
+  left: 90px;
+  font-size: 19px;
+}
+
+#myGirl {
+  position: relative;
+  bottom: 500px;
+  font-size: larger;
+  text-align: center;
+}
+
+.harley {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.hobImage {
+  border: solid black 3px;
+  position: relative;
+}
+
+.BeachHar {
+  left: 550px;
+  bottom: 500px;
+  height: 285px;
+  width: 340px;
+  border-radius: 50%;
+}
+
+#motorcycles {
+  color: gold;
+  font-family: cursive;
+  padding-left: 320px;
+  padding-right: 320px;
+  font-size: 20px;
+  bottom: 500px;
+  position: relative;
+}
+
+.hiking {
+  bottom: 480px;
+  font-size: 23px;
+}
+
+.monadnock {
+  position: relative;
+  bottom: 595px;
+  margin: 155px;
+  left: 90px;
+  font-size: 20px;
+}
+
+.mountain {
+  position: relative;
+  left: 550px;
+  bottom: 720px;
+  height: 285px;
+  width: 340px;
+  border-radius: 50%;
+}
+
+.biking {
+  position: relative;
+  left: 550px;
+  bottom: 680px;
+  height: 285px;
+  width: 340px;
+  border-radius: 50%;
+  font-size: 23px;
+}
+
+.railTrail {
+  position: relative;
+  bottom: 1050px;
+  margin: 155px;
+  left: 90px;
+  font-size: 20px;
+}
+
+.capeCod {
+  position: relative;
+  left: 550px;
+  bottom: 1170px;
+  height: 285px;
+  width: 340px;
+  border-radius: 50%;
+}

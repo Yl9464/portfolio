@@ -1,19 +1,32 @@
 body {
   background-color: #94B49F;
-  font-family: sans-serif;
+  font-family: 'Tiro Kannada';
   color: black;
+
 }
 
 h1 {
   position: relative;
   left: 50px;
+  font-family: 'Lobster';
 }
-
 .hpLink {
   position: relative;
   right: 160px;
   top: 30px;
 }
+
+.contactInfo{
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.icons{
+  height: 40px;
+  width: 40px;
+}
+
 
 hpLink:hover {
   color: #1F4690;
