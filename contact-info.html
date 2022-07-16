@@ -3,30 +3,42 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/contact.css">
   <title>Ying's Portfolio</title>
 </head>
 
 <body>
-  <center>
-    <img src="images/profile.png" alt="profile-pic" height="300" width="320" />
-    <h1 id="name"> Ying Lu </h1>
-  </center>
-  <ul type="square"> <strong><u>Contact me</u></strong>
-    <li> Location: Greater Boston Area</li>
-    <li> Phone Number: (781)799-2641</li>
-    <li> Email: Yinglu2641@gmail.com </li>
-  </ul>
 
-  <form action="mailto:yinglu2641@gmail.com" method="post" enctype="text/plain">
-    <label>Your Name: </label>
-    <input type="text" name="yourName" value=""> <br />
-    <label> Your Email:</label>
-    <input type="email" name="yourEmail" value=""> <br />
-    <label>Your Message:</label> <br />
-    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
-    <input type="submit">
-  </form>
-  <a href="index.html">Home Page</a>
+    <h1 class="name"> Ying Lu </h1>
+    <img src="images/profile.png" alt="profile-pic" height="250" width="220" />
+    <a class="hpLink" href="index.html">Home Page</a>
 
+
+    <table id="contactTable">
+      <thead>
+        <tr id="contactEmjois">
+          <td>📍</td>
+          <td id="phoneEmoji"> ☎️</td>
+          <td> 📧</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="contactInfos">
+          <td> Greater Boston Area <span class="spacers"> | </span></td>
+          <td> (781)799-2641 <span class="spacers">|</span></td>
+          <td> Yinglu2641@gmail.com <span class="spacers">|</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form class="contactForm" action="mailto:yinglu2641@gmail.com" method="post" enctype="text/plain">
+      <label id="yourName">Your Name: </label>
+      <input type="text" name="yourName">
+      <label id="yourEmail"> Your Email:</label>
+      <input type="email" name="yourEmail"><br />
+      <label id="messageLable">Your Message:</label>
+      <textarea id="messageArea" name="yourMessage" rows="10" cols="30"></textarea>
+      <input id="submitButton" type="submit">
+    </form>
+</body>
 </html>

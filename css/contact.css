@@ -1,0 +1,64 @@
+body {
+  background-color: #94B49F;
+  font-family: sans-serif;
+  color: black;
+}
+
+h1 {
+  position: relative;
+  left: 50px;
+}
+
+.hpLink {
+  position: relative;
+  right: 160px;
+  top: 30px;
+}
+
+hpLink:hover {
+  color: #1F4690;
+}
+
+#contactTable {
+  position: relative;
+  margin-left: 500px;
+  bottom: 220px;
+}
+
+#contactEmjois {
+  font-size: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 50px;
+}
+
+.spacers {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.contactForm {
+  margin-top: 40px;
+  margin-left: 500px;
+  display: inline block;
+  position: relative;
+  bottom: 220px;
+}
+
+#messageLable {
+  display: block;
+  position: relative;
+  margin-top: 30px;
+}
+
+#messageArea {
+  position: relative;
+  left: 120px;
+}
+
+#submitButton {
+  display: inline;
+  position: relative;
+  left: 130px;
+  bottom: 22px;
+}
