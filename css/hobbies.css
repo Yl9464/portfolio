@@ -3,14 +3,16 @@ body{
   font-family: 'Tiro Kannada';
   color: black;
   text-align: center;
-    margin: 0;
+  margin: 0;
 }
 
-.top-container{
-width: 100%;
-height: 80%;
+.dog-container{
 position: relative;
+}
 
+.hobbieText{
+  padding-left: 50px;
+  padding-right: 50px;
 }
 h2, h5{
   font-family: 'Lobster';
@@ -29,10 +31,14 @@ padding-left: 3px;
   position: fixed;
   right: 1350px;
 }
-.dog-Container{
-  postion: relative;
-  padding-top: 30px;
 
+#myGirl{
+  margin-top: 0;
+  font-size: x-large;
+}
+
+#motorcycles{
+  font-size: large;
 }
 
 .hobImage{
@@ -62,10 +68,13 @@ hr{
   border: solid 2px black;
 }
 
+.BeachHar{
+  margin-top: 80px;
+}
 .mountain{
-  margin-top: 5px;
+  margin-top: 80px;
 }
 
 .capeCod{
-  margin-top: 5px;
+  margin-top: 100px;
 }

@@ -15,20 +15,32 @@
 </head>
 
 <body>
-
-  <h1 class="name"> Ying Lu </h1>
-  <img src="images/profile.png" alt="profile-pic" height="250" width="220" />
-  <a class="hpLink" href="index.html">Home Page</a>
+  <h3>Thank you for checking out my site! I am currently looking for a position as a Web Developer, Software Engineer,
+  or a related role. Please contact me if you would like to get in touch, I look forward to hearing from you 😄 </h3>
 
   <div class="contactInfo">
     <img class="icons local" src="images/location.svg" alt="add">
-    <p class="GBA"> Greater Boston Area</p>
-    <img class="icons" src="images/phone.svg" alt="phone">
-    <p>(781)-799-2641</p>
-    <img class="icons" src="images/at.svg" alt="atSym">
-    <p>Yinglu2641@gmail.com</p>
+    <p class="myInfo gba"> Greater Boston Area</p>
+    <img class="icons phone" src="images/phone.svg" alt="phone">
+    <p class="myInfo phoneNum">(781) 799-2641</p>
+    <img class="icons email" src="images/at.svg" alt="atSym">
+    <p class="myInfo email">Yinglu2641@gmail.com</p>
   </div>
 
+  <div class="messageForm">
+    <form class="messageMe" action="mailto:yinglu2641@gmail.com" method="get" enctype="text/plain">
+      <label class="lineOne Name" for="name"> Name: </label>
+      <input type="text" name="name" id="name" />
+      <label class="lineOne email" for="yourEmail"> Your Email: </label>
+      <input class="lineOne address" type="email">
+
+      <label class="lineTwo label" for="message">Message:</label>
+      <textarea class="lineTwo message" rows="7" cols="20">Your message here!</textarea>
+      <button class="lineThree" type="submit" >Submit</button>
+    </form>
+  </div>
+
+      <a class="hpLink" href="index.html">Home Page</a>
 </body>
 
 </html>

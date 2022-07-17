@@ -2,7 +2,6 @@ body {
   background-color: #94B49F;
   font-family: 'Tiro Kannada';
   color: black;
-
 }
 
 h1 {
@@ -10,68 +9,90 @@ h1 {
   left: 50px;
   font-family: 'Lobster';
 }
+
+h3{
+  position: absolute;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  top: 50px;
+  font-family: "Lobster";
+  font-size: 29px;
+
+}
+
 .hpLink {
   position: relative;
   right: 160px;
   top: 30px;
 }
 
-.contactInfo{
-  text-align: center;
-  display: inline-block;
+.contactInfo {
+  display: block;
   position: relative;
+  width: 100%;
+  margin-left: 30%;
+  text-align: center;
+  right: 30%;
+  top: 250px;
 }
 
-.icons{
+.icons {
+  display: inline-block;
   height: 40px;
   width: 40px;
 }
 
-
-hpLink:hover {
-  color: #1F4690;
-}
-
-#contactTable {
+.phone{
   position: relative;
-  margin-left: 500px;
-  bottom: 220px;
+  right: 17px;
 }
-
-#contactEmjois {
-  font-size: 30px;
-  margin-bottom: 30px;
+.myInfo {
+  display: inline-block;
   position: relative;
-  left: 50px;
+  top: 30px;
+  right: 90px;
 }
 
-.spacers {
-  font-weight: bold;
-  font-size: 20px;
+.messageForm{
+display: inline-block;
+position: relative;
+top: 300px;
+margin-left: 30%;
+font-weight: bold;
+padding: 4px;
 }
 
-.contactForm {
-  margin-top: 40px;
-  margin-left: 500px;
-  display: inline block;
-  position: relative;
-  bottom: 220px;
+.lineOne{
+display: inline;
 }
 
-#messageLable {
-  display: block;
-  position: relative;
-  margin-top: 30px;
+.lineTwo{
+  top: 50px;
+  position: absolute;
 }
 
-#messageArea {
-  position: relative;
-  left: 120px;
+.label{
+  right: 300px;
+  top: 80px;
+  padding-right: 5px;
 }
 
-#submitButton {
-  display: inline;
-  position: relative;
-  left: 130px;
-  bottom: 22px;
+.message{
+  position: absolute;
+  left: 150px;
+
+}
+
+.lineThree{
+  left: 335px;
+  position: absolute;
+  top: 140px;
+}
+
+.hpLink{
+display: inline;
+position: fixed;
+left: 20px;
+top: 3px;
 }

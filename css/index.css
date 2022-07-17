@@ -11,9 +11,15 @@ body {
   margin: 7px;
   text-align: center;
 }
+
 h1, h3{
   font-family: 'Lobster';
+  font-size: 30px;
+  color: #1F4690;
+  font-style: oblique;
+  text-align: center;
 }
+
 hr {
   border-style: none;
   border-top-style: double;
@@ -21,14 +27,14 @@ hr {
   border-width: 5px;
   margin-top: 13px;
 }
-
-h3 {
-  font-size: 30px;
-  color: #1F4690;
-  font-style: oblique;
-  text-align: center;
+.skills{
+  display: block;
+  margin-left: 400px;
 }
-
+.education{
+  display: block;
+  text-align: left;
+}
 /*links */
 a {
   color: black;
