@@ -81,14 +81,17 @@ display: inline;
 .message{
   position: absolute;
   left: 150px;
+  border: solid 2px black;
 
 }
 
 .lineThree{
-  left: 335px;
+  left: 80px;
   position: absolute;
-  top: 140px;
+  top: 190px;
+  border: solid 2px black;
 }
+
 
 .hpLink{
 display: inline;
