@@ -78,6 +78,9 @@ display: inline;
   padding-right: 5px;
 }
 
+input{
+    border: solid 2px black;
+}
 .message{
   position: absolute;
   left: 150px;
