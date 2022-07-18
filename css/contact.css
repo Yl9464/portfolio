@@ -1,104 +1,98 @@
 body {
   background-color: #94B49F;
-  font-family: 'Tiro Kannada';
+  font-family: "Montserrat";
   color: black;
-}
-
-h1 {
-  position: relative;
-  left: 50px;
-  font-family: 'Lobster';
-}
-
-h3{
-  position: absolute;
   text-align: center;
-  padding-left: 70px;
-  padding-right: 70px;
-  top: 50px;
-  font-family: "Lobster";
-  font-size: 29px;
-
+  margin: 0;
 }
 
 .hpLink {
+  padding-top: .5rem;
+  font-size: .9375rem;
+  color: #C56824;
+}
+
+.hpLink:hover{
+  color: #7D1E6A;
+}
+
+.thanks {
   position: relative;
-  right: 160px;
-  top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 8rem;
 }
 
 .contactInfo {
   display: block;
-  position: relative;
-  width: 100%;
-  margin-left: 30%;
+  position: absolute;
+  width: 87rem;
   text-align: center;
-  right: 30%;
-  top: 250px;
+  top: 15.625rem;
+  left: 6.25rem;
 }
 
 .icons {
   display: inline-block;
-  height: 40px;
-  width: 40px;
+  height: 2.5rem;
+  width:  2.5rem;
 }
 
-.phone{
+.phone {
   position: relative;
-  right: 17px;
+  right: 1.0625rem;
 }
+
 .myInfo {
   display: inline-block;
   position: relative;
-  top: 30px;
-  right: 90px;
+  top: 1.87rem;
+  right: 5.625rem;
 }
 
-.messageForm{
-display: inline-block;
+/** message Form **/
+form {
+  display: block;
+  margin-top: 12rem;
+  left: 0.1875rem;
+}
+
+.nameLabel, .emailLabel {
+  display: inline;
+  bottom: 8.75rem;
+  left: 160rem;
+}
+
+.nameInput, .emailInput {
+  display: inline;
+  bottom: 8.75rem;
+  left: 10rem;
+}
+
+.messageLabel{
+  display: block;
+  margin-top: 1.25rem;
+  text-align: center;
+  margin-right: 23.125rem;
+}
+
+textarea{
 position: relative;
-top: 300px;
-margin-left: 30%;
-font-weight: bold;
-padding: 4px;
+left: 4.75rem;
+bottom: 0.9375rem;
+resize: vertical;
 }
 
-.lineOne{
-display: inline;
-}
-
-.lineTwo{
-  top: 50px;
-  position: absolute;
-}
-
-.label{
-  right: 300px;
-  top: 80px;
-  padding-right: 5px;
-}
-
-input{
-    border: solid 2px black;
-}
-.message{
-  position: absolute;
-  left: 150px;
-  border: solid 2px black;
-
-}
-
-.lineThree{
-  left: 80px;
-  position: absolute;
-  top: 190px;
-  border: solid 2px black;
+button{
+position: relative;
+left: .9375rem;
+top: .5rem;
 }
 
 
-.hpLink{
-display: inline;
-position: fixed;
-left: 20px;
-top: 3px;
+/** home Link */
+.hpLink {
+  display: inline;
+  position: fixed;
+  left: 20px;
+  top: 3px;
 }

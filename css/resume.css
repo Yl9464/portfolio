@@ -1,10 +1,9 @@
 body {
   background-color: #94B49F;
-  font-family: 'Tiro Kannada';
   color: black;
 }
 
 img{
-  border: solid black 3px;
-  border-radius: 10%
+  border: solid black .1875rem;
+  border-radius: 10rem
 }

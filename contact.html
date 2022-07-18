@@ -7,16 +7,15 @@
   <link rel="icon" href="images/compFavcon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Tiro+Kannada:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Montserrat:wght@200&display=swap" rel="stylesheet">
   <title>Ying's Portfolio</title>
 </head>
 
 <body>
-  <h3>Thank you for checking out my site! I am currently looking for a position as a Web Developer, Software Engineer,
-  or a related role. Please contact me if you would like to get in touch, I look forward to hearing from you 😄 </h3>
+  <div class="thanks">
+    <h3>Thank you for checking out my site! I am currently looking for a position as a Web Developer, Software Engineer,
+      or a related role. Please contact me if you would like to get in touch, I look forward to hearing from you.</h3>
+  </div>
 
   <div class="contactInfo">
     <img class="icons local" src="images/location.svg" alt="add">
@@ -27,20 +26,18 @@
     <p class="myInfo email">Yinglu2641@gmail.com</p>
   </div>
 
-  <div class="messageForm">
-    <form class="messageMe" action="mailto:yinglu2641@gmail.com" method="get" enctype="text/plain">
-      <label class="lineOne Name" for="name"> Name: </label>
-      <input type="text" name="name" id="name" />
-      <label class="lineOne email" for="yourEmail"> Your Email: </label>
-      <input class="lineOne address" type="email">
+  <form class="contactMe" action="mailto:yinglu2641@gmail.com" method="get" enctype="text/plain">
+    <label class="nameLabel" for="name"> Name: </label>
+    <input class="nameInput" type="text" name="name" />
+    <label class="emailLabel" for="yourEmail"> Your Email: </label>
+    <input class="emailInput" type="email">
+    <label class="messageLabel" for="message">Message:</label>
+    <textarea rows="10" cols="42">Your message here!</textarea>
+    <button type="submit">Submit</button>
+  </form>
 
-      <label class="lineTwo label" for="message">Message:</label>
-      <textarea class="lineTwo message" rows="10" cols="33">Your message here!</textarea>
-      <button class="lineThree" type="submit" >Submit</button>
-    </form>
-  </div>
 
-      <a class="hpLink" href="index.html">Home Page</a>
+  <a class="hpLink" href="index.html">Home Page</a>
 </body>
 
 </html>

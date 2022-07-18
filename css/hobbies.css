@@ -1,9 +1,19 @@
 body{
   background-color: #94B49F;
-  font-family: 'Tiro Kannada';
+  font-family: "Montserrat";
   color: black;
   text-align: center;
   margin: 0;
+}
+
+.hpLink {
+  padding-top: .5rem;
+  font-size: .9375rem;
+  color: #C56824;
+}
+
+.hpLink:hover{
+  color: #7D1E6A;
 }
 
 .dog-container{
@@ -11,25 +21,25 @@ position: relative;
 }
 
 .hobbieText{
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 3.125rem;
+  padding-right: 3.125rem;
 }
 h2, h5{
-  font-family: 'Lobster';
+  font-family: 'Montserrat', sans-serif;;
 }
 
 h1{
 position: absolute;
 color: #1F4690;
-font-size: 40px;
-width: 100%;
+font-size: 2.5rem;
 text-align: left;
-padding-left: 3px;
+padding-left: 0.1875rem;
+font-family: 'Montserrat', sans-serif;
 }
 
 .hpLink{
   position: fixed;
-  right: 1350px;
+  right: 84.375rem;
 }
 
 #myGirl{
@@ -42,14 +52,15 @@ padding-left: 3px;
 }
 
 .hobImage{
-  height: 250px;
-  width: 250px;
-  border-radius: 100%;
-  border: 3px solid black;
-  margin-top: 65px;
+  height: 15.625rem;
+  width: 15.625rem;
+  border-radius: 100rem;
+  border: 0.1875rem solid black;
+  margin-top: 4.0625rem;
 }
+
 .hobbieName{
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 .hobbieText{
@@ -59,22 +70,22 @@ padding-left: 3px;
 }
 
 #motorcycles{
-  color: yellow;
+  color: #C56824;;
   font-weight: bold;
 }
 
 hr{
   color: black;
-  border: solid 2px black;
+  border: solid .125rem black;
 }
 
 .BeachHar{
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 .mountain{
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 .capeCod{
-  margin-top: 100px;
+  margin-top: 5rem;
 }
