@@ -1,19 +1,21 @@
-body{
-  background-color: #94B49F;
+body {
+  background-color: #6D8B74;
   font-family: "Montserrat";
-  color: black;
+  color: #EFEAD8;
   text-align: center;
+  padding: 0 1.25rem 0 1.25rem;
   margin: 0;
 }
 
 .hpLink {
   padding-top: .5rem;
   font-size: .9375rem;
-  color: #C56824;
+  color: black;
+  font-weight: bolder;
 }
 
 .hpLink:hover{
-  color: #7D1E6A;
+  color: #EFEAD8;
 }
 
 .dog-container{
@@ -61,7 +63,8 @@ font-family: 'Montserrat', sans-serif;
 
 .hobbieName{
   font-size: 1.25rem;
-  font-weight: bold;
+  color: #EC9B3B;
+  font-weight: bolder;
 }
 .hobbieText{
   position: absolute;
@@ -70,7 +73,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 #motorcycles{
-  color: #C56824;;
+  color: #EC9B3B;;
   font-weight: bold;
 }
 

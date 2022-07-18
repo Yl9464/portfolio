@@ -1,7 +1,7 @@
 body {
-  background-color: #94B49F;
+  background-color: #6D8B74;
   font-family: "Montserrat";
-  color: black;
+  color: #EFEAD8;
   text-align: center;
   padding: 0 1.25rem 0 1.25rem;
   margin: 0;
@@ -29,12 +29,12 @@ img{
   font-weight: bolder;
   font-size: 1.875rem;
   font-style: italic;
-  color: #7D1E6A;
+  color: #EC9B3B;
   line-height: 1;
 }
 .name {
-  color: #C56824;
-  font-weight: bold;
+  color: #EFEAD8;
+  font-weight: bolder;
   font-size: 2.5rem;
   margin: .4375rem;
   text-align: center;
@@ -43,12 +43,14 @@ img{
 .top-box{
 padding: 0;
 }
+
 h1, h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.875rem;
-  color: #7D1E6A;
+  color: #EC9B3B;
   font-style: oblique;
   text-align: center;
+  font-weight: bolder;
 }
 
 h4 {
@@ -74,14 +76,18 @@ hr {
   margin-top: .8125rem;
 }
 
-.skills {
+.skillsTable {
   display: block;
-  margin-left: 25rem;
+  margin-left: 11.875rem;
+  padding-right: .625rem;
 }
-
+.softSkillS{
+  color: #A2D2FF;
+}
 .education {
   display: block;
   text-align: left;
+  padding-bottom: 1.875rem;
 }
 
 /*links */
@@ -91,13 +97,13 @@ hr {
 }
 
 a {
-color: #C56824;
+color: black;
 font-weight: bolder;
 font-size: 1.25rem;
 
 }
 
 a:hover {
-  color: #7D1E6A;
+  color: #EFEAD8;
   padding: .3125rem;
 }
