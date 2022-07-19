@@ -1,23 +1,25 @@
 body {
   background-color: #6D8B74;
   font-family: "Montserrat";
+  color: #EFEAD8;
   margin: 0;
-    color: #EFEAD8;
 }
 
-img{
-  border: solid black .1875rem;
-  border-radius: 10rem
-}
 a {
+  position: fixed;
+  display: block;
   color: #FAC213;
-  position: relative;
-  top: 20px;
-  left: 20px;
-  font-size: 1.25rem;
+  font-weight: bolder;
+  font-size: .94rem;
+  left: .3rem;
 }
 
 a:hover {
   color: #EFEAD8;
-  padding: .3125rem;
+}
+
+img{
+  top: 30px;
+  border: solid black .1875rem;
+  border-radius: 10rem
 }

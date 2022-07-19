@@ -3,71 +3,45 @@ body {
   font-family: "Montserrat";
   color: #EFEAD8;
   text-align: center;
-  padding: 0 1.25rem 0 1.25rem;
   margin: 0;
 }
 
-.hpLink {
-  padding-top: .5rem;
-  font-size: 15px;
+a {
+  position: fixed;
+  display: block;
   color: #FAC213;
   font-weight: bolder;
+  font-size: .94rem;
+  left: .3rem;
 }
 
-.hpLink:hover {
+a:hover {
   color: #EFEAD8;
 }
 
-.dog-container {
+hr {
+position: relative;
+border-style: none;
+border-top-style: double;
+border-color: black;
+border-width: .3135rem;
+}
+
+/**container fonts and style */
+.container {
+  text-align: center;
+  display: inline-block;
   position: relative;
+  margin: 1.25rem;
+  letter-spacing: .08rem;
+  /* border: solid purple 2px; */
+  width: 80%
 }
 
-.hobbieText {
-  padding-left: 3.125rem;
-  padding-right: 3.125rem;
-}
-
-h2, h5 {
-  font-family: 'Montserrat', sans-serif;
-  ;
-}
-
-h1 {
-  position: absolute;
-  color: #1F4690;
-  font-size: 2.5rem;
-  text-align: left;
-  padding-left: 0.1875rem;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.hpLink {
-  position: fixed;
-  right: 84.375rem;
-}
-
-#myGirl {
-  margin-top: 0;
-  font-size: x-large;
-}
-
-#motorcycles {
-  font-size: large;
-}
-
-.hobImage {
-  height: 15.625rem;
-  width: 15.625rem;
-  border-radius: 100rem;
-  border: 0.1875rem solid black;
-  margin-top: 4.0625rem;
-}
-
-.hobbieName {
-  font-size: 1.25rem;
-  color: #FAC213;
-  ;
-  font-weight: bolder;
+#hobbiesHeader {
+  position: relative;
+  top: 1.88rem;
+  text-decoration: underline;
 }
 
 .hobbieText {
@@ -76,24 +50,28 @@ h1 {
   margin: 0 auto;
 }
 
-#motorcycles {
+.hobbieName {
+  font-size: 1.25rem;
   color: #FAC213;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
-hr {
-  color: black;
-  border: solid .125rem black;
-}
-
-.BeachHar {
+/**image formating */
+.hobImage {
+  height: 15.625rem;
+  width: 15.625rem;
+  border-radius: 100rem;
+  border: 0.1875rem solid black;
   margin-top: 5rem;
 }
 
-.mountain {
-  margin-top: 5rem;
+.myGirl {
+  margin-top: .3rem;
+  font-size: x-large;
 }
 
-.capeCod {
-  margin-top: 5rem;
+#motorcycles {
+  font-size: large;
+  margin: 0;
+  color: #FAC213;
 }

@@ -32,7 +32,6 @@ h3 {
   font-size: 1.875rem;
   font-style: italic;
   color: #FAC213;
-  ;
   line-height: 1;
 }
 
@@ -40,7 +39,7 @@ h3 {
 .aboutMeBox {
   display: inline-block;
   position: relative;
-  margin: 0 90px 0 300px;
+  margin: 0 90px 0 18.75rem;
   bottom: 210px;
   line-height: 1.5;
   text-align: left;
@@ -49,12 +48,12 @@ h3 {
 
 img {
   position: relative;
-  bottom: 20px;
-  left: 20px;
-  height: 250px;
-  width: 250px;
-  border: solid black 4px;
-  border-radius: 50%
+  bottom: 1.25rem;
+  left: 1.25rem;
+  height: 15.625rem;
+  width: 15.625rem;
+  border: solid black .25rem;
+  border-radius: 50rem;
 }
 
 .header {
@@ -66,9 +65,9 @@ img {
 .links {
   display: inline-block;
   position: relative;
-  margin: 0 90px 0 470px;
-  bottom: 180px;
-  font-size: 5px;
+  margin: 0 90px 0 29.375rem;
+  bottom: 11.25rem;
+  font-size: .3125rem;
   text-align: left
 }
 
@@ -85,7 +84,7 @@ a:hover {
 
 hr {
   position: relative;
-  bottom: 110px;
+  bottom: 6.875rem;
   border-style: none;
   border-top-style: double;
   border-color: black;
@@ -97,19 +96,19 @@ hr {
   text-align: center;
   display: inline-block;
   position: relative;
-  bottom: 110px;
-  margin: 20px;
-  letter-spacing: 1.5px;
+  bottom: 6.875rem;
+  margin: 1.25rem;
+  letter-spacing: .08rem;
 }
 
 .skillsBox {
   text-align: center;
   display: inline-block;
   position: relative;
-  bottom: 110px;
-  margin: 20px;
-  letter-spacing: 1.5px;
-  left: 7%;
+  bottom: 6.875rem;
+  margin: 1.25rem;
+  letter-spacing: .08rem;
+  left: 7rem;
 }
 
 .softSkills {
@@ -119,9 +118,8 @@ hr {
 .education {
   display: inline-block;
   position: relative;
-  bottom: 110px;
+  bottom: 6.875rem;
   text-align: left;
-  margin: 20px;
-  padding-left: 2px;
-  letter-spacing: 1.5px;
+  margin: 1.25rem;
+  letter-spacing: .095rem;
 }
