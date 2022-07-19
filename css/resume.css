@@ -1,9 +1,23 @@
 body {
-  background-color: #94B49F;
-  color: black;
+  background-color: #6D8B74;
+  font-family: "Montserrat";
+  margin: 0;
+    color: #EFEAD8;
 }
 
 img{
   border: solid black .1875rem;
   border-radius: 10rem
+}
+a {
+  color: #FAC213;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 1.25rem;
+}
+
+a:hover {
+  color: #EFEAD8;
+  padding: .3125rem;
 }

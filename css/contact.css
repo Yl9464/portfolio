@@ -2,46 +2,46 @@ body {
   background-color: #6D8B74;
   font-family: "Montserrat";
   color: #EFEAD8;
-  text-align: center;
-  padding: 0 1.25rem 0 1.25rem;
   margin: 0;
+  text-align: center;
 }
 
-
-.hpLink {
-  font-size: .9375rem;
-  color: black;
-  display: block;
-  font-weight: bolder;
+a {
+  color: #FAC213;
   position: relative;
-  right: 41.875rem;
-  bottom: 5rem;
-
+  font-weight: bolder;
+  font-size: 1.25rem;
+  top: 20px;
+  right: 640px;
 }
 
-.hpLink:hover{
+a:hover {
   color: #EFEAD8;
+  padding: .3125rem;
 }
 
 .thanks {
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  padding-top: 8rem;
+  display: block;
+  margin: 70px;
+  top: 40px;
 }
 
 .contactInfo {
-  display: block;
+  display: inline-block;
   position: absolute;
+  color: #FAC213;
   width: 87rem;
   text-align: center;
-  top: 15.625rem;
   left: 6.25rem;
 }
 
 .icons {
   display: inline-block;
   height: 2.5rem;
-  width:  2.5rem;
+  width: 2.5rem;
+  position: relative;
 }
 
 .phone {
@@ -52,8 +52,10 @@ body {
 .myInfo {
   display: inline-block;
   position: relative;
+  color: #FAC213;
   top: 1.87rem;
   right: 5.625rem;
+  bottom: 10px;
 }
 
 /** message Form **/
@@ -67,6 +69,7 @@ form {
   display: inline;
   bottom: 8.75rem;
   left: 160rem;
+  color: #FAC213;
 }
 
 .nameInput, .emailInput {
@@ -75,22 +78,23 @@ form {
   left: 10rem;
 }
 
-.messageLabel{
+.messageLabel {
   display: block;
   margin-top: 1.25rem;
   text-align: center;
   margin-right: 23.125rem;
+  color: #FAC213;
 }
 
-textarea{
-position: relative;
-left: 4.75rem;
-bottom: 0.9375rem;
-resize: vertical;
+textarea {
+  position: relative;
+  left: 4.75rem;
+  bottom: 0.9375rem;
+  resize: vertical;
 }
 
-button{
-position: relative;
-left: .9375rem;
-top: .5rem;
+button {
+  position: relative;
+  left: .9375rem;
+  top: .5rem;
 }

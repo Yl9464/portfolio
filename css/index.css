@@ -2,108 +2,124 @@ body {
   background-color: #6D8B74;
   font-family: "Montserrat";
   color: #EFEAD8;
-  text-align: center;
-  padding: 0 1.25rem 0 1.25rem;
   margin: 0;
 }
 
-.aboutMe{
-  position: relative;
-  bottom: 3.75rem;
-}
-
-.aboutMeHeader{
-  text-decoration: underline;
-  font-weight: bold;
-  margin-bottom: .625rem;
-}
-
-img{
-    border-radius: 50%;
-    position:relative;
-    bottom: 2.5rem;
-    border: 6.25rem;
-}
-.subtitle{
-  font-family: 'Montserrat', sans-serif;
+h3 {
   font-weight: bolder;
-  font-size: 1.875rem;
-  font-style: italic;
-  color: #EC9B3B;
-  line-height: 1;
+  text-decoration: underline;
+  text-align: center;
 }
+
+/**Parent Header Bodx */
+.headerBox {
+  display: block;
+  position: relative;
+  text-align: center;
+  /* border: solid white 2px; */
+}
+
 .name {
   color: #EFEAD8;
   font-weight: bolder;
   font-size: 2.5rem;
   margin: .4375rem;
-  text-align: center;
 }
 
-.top-box{
-padding: 0;
-}
-
-h1, h3 {
+.subtitle {
   font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
   font-size: 1.875rem;
-  color: #EC9B3B;
-  font-style: oblique;
-  text-align: center;
-  font-weight: bolder;
+  font-style: italic;
+  color: #FAC213;;
+  line-height: 1;
 }
 
-h4 {
-  font-family: "Ibarra Real Nova";
-  font-weight: bolder;
-  line-height: 0;
-}
-
-.workRoles{
-  text-decoration: underline;
-  font-weight: bolder;
-}
-.school{
-    text-decoration: underline;
-}
-
-
-hr {
-  border-style: none;
-  border-top-style: double;
-  border-color: black;
-  border-width: .3125rem;
-  margin-top: .8125rem;
-}
-
-.skillsTable {
-  display: block;
-  margin-left: 11.875rem;
-  padding-right: .625rem;
-}
-.softSkillS{
-  color: #A2D2FF;
-}
-.education {
-  display: block;
-  text-align: left;
-  padding-bottom: 1.875rem;
-}
-
-/*links */
-.links{
+/** Child: about me box, Parent: HeaderBox */
+.aboutMeBox {
+  display: inline-block;
   position: relative;
-  bottom: 4.375rem;
+  margin: 0 90px 0 300px;
+  bottom: 210px;
+  line-height: 1.5;
+  text-align: left;
+  /** border: solid purple 2px; */
+}
+
+img {
+  position: relative;
+  bottom: 60px;
+  left: 40px;
+  height: 250px;
+  width: 250px;
+
+}
+
+.header {
+  position: relative;
+  display: inline;
+}
+
+/** Child: linksBox; Parent: headerBox */
+.links {
+  display: inline-block;
+  position: relative;
+  margin: 0 90px 0 470px;
+  bottom: 180px;
+  font-size: 5px;
+  text-align: left
 }
 
 a {
-color: black;
-font-weight: bolder;
-font-size: 1.25rem;
-
+    color: #FAC213;
+  font-weight: bolder;
+  font-size: 1.25rem;
 }
 
 a:hover {
   color: #EFEAD8;
   padding: .3125rem;
+}
+
+hr {
+  position: relative;
+  bottom: 110px;
+  border-style: none;
+  border-top-style: double;
+  border-color: black;
+  border-width: .3135rem;
+}
+
+/**workBox */
+.workBox {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  bottom: 110px;
+  margin: 20px;
+  letter-spacing: 1.5px;
+}
+
+.skillsBox {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  bottom: 110px;
+  margin: 20px;
+letter-spacing: 1.5px;
+left: 13%;
+}
+
+.education {
+  display: inline-block;
+  position: relative;
+  bottom: 110px;
+  text-align: left;
+  margin: 20px;
+  padding-left: 2px;
+    letter-spacing: 1.5px;
+}
+
+.softSkills{
+  color: #A2D2FF;
 }

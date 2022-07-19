@@ -9,51 +9,53 @@ body {
 
 .hpLink {
   padding-top: .5rem;
-  font-size: .9375rem;
-  color: black;
+  font-size: 15px;
+  color: #FAC213;
   font-weight: bolder;
 }
 
-.hpLink:hover{
+.hpLink:hover {
   color: #EFEAD8;
 }
 
-.dog-container{
-position: relative;
+.dog-container {
+  position: relative;
 }
 
-.hobbieText{
+.hobbieText {
   padding-left: 3.125rem;
   padding-right: 3.125rem;
 }
-h2, h5{
-  font-family: 'Montserrat', sans-serif;;
+
+h2, h5 {
+  font-family: 'Montserrat', sans-serif;
+  ;
 }
 
-h1{
-position: absolute;
-color: #1F4690;
-font-size: 2.5rem;
-text-align: left;
-padding-left: 0.1875rem;
-font-family: 'Montserrat', sans-serif;
+h1 {
+  position: absolute;
+  color: #1F4690;
+  font-size: 2.5rem;
+  text-align: left;
+  padding-left: 0.1875rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.hpLink{
+.hpLink {
   position: fixed;
   right: 84.375rem;
 }
 
-#myGirl{
+#myGirl {
   margin-top: 0;
   font-size: x-large;
 }
 
-#motorcycles{
+#motorcycles {
   font-size: large;
 }
 
-.hobImage{
+.hobImage {
   height: 15.625rem;
   width: 15.625rem;
   border-radius: 100rem;
@@ -61,34 +63,37 @@ font-family: 'Montserrat', sans-serif;
   margin-top: 4.0625rem;
 }
 
-.hobbieName{
+.hobbieName {
   font-size: 1.25rem;
-  color: #EC9B3B;
+  color: #FAC213;
+  ;
   font-weight: bolder;
 }
-.hobbieText{
+
+.hobbieText {
   position: absolute;
   text-align: center;
   margin: 0 auto;
 }
 
-#motorcycles{
-  color: #EC9B3B;;
+#motorcycles {
+  color: #FAC213;
   font-weight: bold;
 }
 
-hr{
+hr {
   color: black;
   border: solid .125rem black;
 }
 
-.BeachHar{
-  margin-top: 5rem;
-}
-.mountain{
+.BeachHar {
   margin-top: 5rem;
 }
 
-.capeCod{
+.mountain {
+  margin-top: 5rem;
+}
+
+.capeCod {
   margin-top: 5rem;
 }
